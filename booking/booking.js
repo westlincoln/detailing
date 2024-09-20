@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         **Service Type:** ${serviceType}\n
         **Dirtiness:** ${dirtiness} star(s)`;
 
-        // Replace this with your webhook URL
+        // yo homies, pwease dont spam my webhook 
         const webhookURL = "https://discord.com/api/webhooks/1286148327980666900/LGWdVFpcykWXda8YA-cQ_DmjzvLSufpxnF4679VkqIC206hg5KSn1LRxU3HeL2iBlsc0";
 
         // Send the data to Discord
