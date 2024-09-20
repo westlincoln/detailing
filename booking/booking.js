@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => {
             if (response.ok) {
                 // Redirect to the confirmation page
-                window.location.href = "/booking/conformation.html"; // Replace with the actual path to your confirmation page
+                window.location.href = "./conformation.html"; // Replace with the actual path to your confirmation page
             } else {
                 alert('Failed to send booking information.');
             }
