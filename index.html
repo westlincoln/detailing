@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detailing Business Estimator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/images/Icon.png" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="nav-left">
+        <a href="/home/home.html">Home</a>
+      </div>
+      <div class="nav-right">
+        <a href="tel:+1234567890" id="phone-number"
+          >Call Us</a
+        >
+      </div>
+    </nav>
+
+    <img class="imagew" src="/images/LincolnDetailingLogoFinal.png" alt="">
+
+    <main>
+      <section id="quote">
+        <h2>Estimate Your Service Cost</h2>
+        <form id="quote-form">
+          <!-- Vehicle Type Dropdown -->
+          <label for="vehicle-type">Select your vehicle type:</label>
+          <select id="vehicle-type" name="vehicle-type" required>
+            <option value="" disabled selected>Select your vehicle type</option>
+            <option value="car">Car</option>
+            <option value="suv">SUV</option>
+            <option value="truck">Truck</option>
+          </select>
+
+          <label for="service-type">Select the service you want:</label>
+          <select id="service-type" name="service-type" required>
+            <option value="" disabled selected>Select the service type</option>
+            <option value="interior">Interior</option>
+            <option value="exterior">Exterior</option>
+            <option value="both">Both</option>
+          </select>
+
+          <!-- Star Rating -->
+          <label for="dirtiness">How dirty is your vehicle?</label>
+          <div id="star-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+          </div>
+
+          <!-- Estimated Price -->
+          <div id="price-estimate">
+            <h3>Estimated Price: <span id="price-range">$0</span></h3>
+          </div>
+
+          <!-- Book Now Button -->
+          <button id="book-now" type="button">Book Now</button>
+        </form>
+
+        <!-- Reviews Box -->
+        <div id="reviews-box">
+          <h3>Reviews</h3>
+          <p class="click-to-see-reviews">Click to see reviews</p>
+        </div>
+
+        <div id="social-media">
+            <h3>Contact Us</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/yourpage" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/yourpage" target="_blank">
+                    <img src="images/instagram.svg.webp" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/@yourpage" target="_blank">
+                    <img src="images/tiktok-7002882_1280.webp" alt="TikTok">
+                </a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #181818;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-left a, .nav-right a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-right a#phone-number:hover {
+    text-decoration: underline;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#quote {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Form Fields */
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#star-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc;
+    margin: 0 5px;
+}
+
+.star.selected {
+    color: #f0c420;
+}
+
+/* Estimated Price */
+#price-estimate {
+    margin-top: 20px;
+}
+
+#price-estimate h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Book Now Button */
+#book-now {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#book-now:hover {
+    background-color: #e74c3c;
+}
+
+/* Reviews Box */
+#reviews-box {
+    margin-top: 30px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#reviews-box h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.click-to-see-reviews {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Social Media Section */
+#social-media {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#social-media h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 30px; /* Control the size of the icons */
+    height: 30px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+#thingythytbtyntyu
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Navigation Bar */
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a, .nav-right a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-right a#phone-number:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.592);
+    
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Intro Section */
+#intro {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+#intro h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#intro p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Social Media Section */
+#social-media {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#social-media h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+.imagew {
+    width: 100%;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+  }
