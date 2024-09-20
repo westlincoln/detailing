@@ -71,12 +71,12 @@ serviceTypeSelect.addEventListener('change', updatePriceEstimate);
 
 document.getElementById('book-now').addEventListener('click', () => {
     // Redirect to booking page or open a booking modal
-    window.location.href = '/booking/booking.html'; // Replace with the actual booking page URL
+    window.location.href = '/detailing/booking/booking.html'; // Replace with the actual booking page URL
 });
 
 
 document.querySelector('#reviews-box').addEventListener('click', () => {
     // Redirect to reviews page
-    window.location.href = '/reviews/reviews.html'; // Replace with the actual reviews page URL
+    window.location.href = '/detailing/reviews/reviews.html'; // Replace with the actual reviews page URL
 });
 
